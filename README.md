@@ -1,6 +1,11 @@
 # <h1 align="center">uBlock Filters for Social Media</h1>
 
-<p>The uBlock Origin filter list that removes all distractions on major social media platforms to make your usage less addictive and more focused.</p>
+<p>
+  The uBlock Origin filter list that hides all distractions on major social media platforms to make usage less addictive and more focused. This filter list is designed to remove elements like endless scrolling, video recommendations, pop-ups, and other features. By eliminating these distractions, the list aims to help users regain control over their time and attention while using platforms like YouTube, Facebook, Reddit, and more.
+</p>
+<p>
+This filter list offers a simple yet effective way to be more productive. It is fully customizable, allowing users to selectively block or hide various elements to suit their individual needs.
+</p>
 <br/>
 
 ![Picture1](https://github.com/user-attachments/assets/9d0c1915-1052-4e0e-8da8-7c7f422d6428)
@@ -81,3 +86,10 @@
     Alternatively just simply copy the text from the filterlist.txt file and paste it to the filter input field
   </li>
 </ol>
+<br/>
+
+<p>Please Note:</p>
+<ul>
+  <li>Although this filter is designed to improve focus, it may alter the user interface and functionality of some platforms.</li>
+  <li>Be aware that platforms may make changes that can break the functionality of the filter, so it's important to stay updated.</li>
+</ul>
