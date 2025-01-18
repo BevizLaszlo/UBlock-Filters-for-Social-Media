@@ -1,0 +1,44 @@
+! Version: 1.10.0
+! Last modified: 2024-08-31 19:24
+! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
+
+www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
+www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
+www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
+www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
+www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+
+
+
+
+www.facebook.com##[aria-label="reel"]:upward(2)
+www.facebook.com##.x1ceravr.xq1tmr.xvue9z.x193iq5w
+www.facebook.com##.x1g2khh7.x1n2onr6
+www.facebook.com##.x1w9j1nh.x1mtsufr.xqmdsaz.x1xfsgkm.x1iplk16.x1q0g3np.xozqiw3.x1qjc9v5.xl56j7k.xeuugli.xs83m0k.x1iyjqo2.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-child(3)
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-child(4)
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-child(5)
+
+www.reddit.com##shreddit-app[pagetype="home"] .main-container
+www.reddit.com##shreddit-app[pagetype="popular"] .main-container
+www.reddit.com##shreddit-app[pagetype="all"] .main-container
+
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+
+www.twitch.tv##.iTiPMO.Layout-sc-1xcs6mc-0
+www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(3)
+www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(4)
+www.twitch.tv##.Layout-sc-1xcs6mc-0.find-me
