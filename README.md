@@ -88,8 +88,8 @@ This filter list offers a simple yet effective way to be more productive. It is 
 </ol>
 <br/>
 
-⚠️ **Please Note:**
-<ul>
-  <li>Although this filter is designed to improve focus, it may alter the user interface and functionality of some platforms.</li>
-  <li>Be aware that platforms may make changes that can break the functionality of the filter, so it's important to stay updated.</li>
-</ul>
+> [!NOTE]
+><ul>
+>  <li>Although this filter is designed to improve focus, it may alter the user interface and functionality of some platforms.</li>
+>  <li>Be aware that platforms may make changes that can break the functionality of the filter, so it's important to stay updated.</li>
+></ul>
