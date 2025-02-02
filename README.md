@@ -10,7 +10,7 @@ This filter list offers a simple yet effective way to be more productive. It is 
 
 ![Picture1](https://github.com/user-attachments/assets/9d0c1915-1052-4e0e-8da8-7c7f422d6428)
 
-# Features
+## Features
 <table>
   <thead>
     <tr>
@@ -72,7 +72,7 @@ This filter list offers a simple yet effective way to be more productive. It is 
 
 
 
-# Usage
+## Usage
 
 <ol>
   <li>Download the filterlist.txt file from the latest release <a href='https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media/releases/latest'>here</a></li>
