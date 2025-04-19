@@ -18,9 +18,6 @@ www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
 www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 
-
-
-
 www.facebook.com##[aria-label="reel"]:upward(2)
 www.facebook.com##.x1ceravr.xq1tmr.xvue9z.x193iq5w
 www.facebook.com##.x1g2khh7.x1n2onr6
@@ -40,10 +37,11 @@ www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-rend
 www.youtube.com##div#secondary>div#secondary-inner>div#related
 
 www.twitch.tv##.iTiPMO.Layout-sc-1xcs6mc-0
-www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(3)
-www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(4)
 www.twitch.tv##.Layout-sc-1xcs6mc-0.find-me
 www.twitch.tv##[aria-label="Recommended Channels"]
 www.twitch.tv##[aria-label="Live Channels"]
 
 x.com##[aria-label="Timeline: Your Home Timeline"]
+
+www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
+www.linkedin.com##main:has(.feed-sort-toggle-dsa__wrapper)>.relative
