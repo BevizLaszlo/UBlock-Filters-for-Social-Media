@@ -67,6 +67,15 @@ This filter list offers a simple yet effective way to be more productive. It is 
         </ul>
       </td>
     </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td>
+        <ul>
+          <li>Feed sort toggle</li>
+          <li>Home feed</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
