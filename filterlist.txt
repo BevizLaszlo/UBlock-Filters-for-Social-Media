@@ -43,5 +43,6 @@ www.twitch.tv##main:has(#front-page-main-content)
 
 x.com##[aria-label="Timeline: Your Home Timeline"]
 
+www.linkedin.com##[aria-label="Main Feed"]
 www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
 www.linkedin.com##main:has(.feed-sort-toggle-dsa__wrapper)>.relative
