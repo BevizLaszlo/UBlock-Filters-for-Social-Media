@@ -1,5 +1,3 @@
-! Version: 1.10.0
-! Last modified: 2024-08-31 19:24
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
 
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
@@ -17,6 +15,10 @@ www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
 www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
 www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
+www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
+
+! End of gijsdev/ublock-hide-yt-shorts filter list
 
 www.facebook.com##[aria-label="reel"]:upward(2)
 www.facebook.com##.x1ceravr.xq1tmr.xvue9z.x193iq5w
