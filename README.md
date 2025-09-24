@@ -103,7 +103,12 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
 <ol>
   <li>Download the filterlist.txt file from the latest release <a href='https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media/releases/latest'>here</a></li>
   <li>
-    Install uBlock Origin extension in your browser (<a href='https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm'>Chromium</a> | <a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'>Firefox</a>)
+    Install uBlock Origin extension in your browser
+    <ul>
+      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox (recommended)</a></li>
+      <li><a href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak">Microsoft Edge</a></li>
+      <li><a href="https://addons.opera.com/en/extensions/details/ublock/">Opera</a></li>
+    </ul>
   </li>
   <li>Open uBlock Dashboard</li>
   <li>Navigate to 'My filters' section</li>
