@@ -38,6 +38,9 @@ www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 www.youtube.com##div#secondary>div#secondary-inner>div#related
 
+! for the new youtube video recommendations:
+www.youtube.com##div.ytp-fullscreen-grid-main-content
+
 www.twitch.tv##[aria-label="Recommended Channels"]
 www.twitch.tv##[aria-label="Live Channels"]
 www.twitch.tv##[aria-label*="Viewers Also Watch"]
