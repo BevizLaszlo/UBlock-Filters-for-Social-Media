@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<h1 align="center">uBlock Filters for Social Media</h1>
+<h1 align="center">uBlock Origin Filters for Social Media</h1>
 
 <p>
   The uBlock Origin filter list that hides all distractions on major social media platforms to make usage less addictive and more focused. This filter list removes elements like endless scrolling, video recommendations, pop-ups, and other addictive features. By eliminating these distractions, the list aims to help users regain control over their time and attention while using platforms like YouTube, Facebook, Reddit, and more.
