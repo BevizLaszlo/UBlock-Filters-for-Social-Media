@@ -37,6 +37,7 @@ www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>l
 www.reddit.com##shreddit-app[pagetype="home"] .main-container
 www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
 www.reddit.com##shreddit-app[pagetype="all"] .main-container
+www.reddit.com###reddit-trending-searches-partial-container
 
 www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
 www.youtube.com##ytd-browse[page-subtype="home"]
