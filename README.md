@@ -100,6 +100,7 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
 
 ## Usage
 
+### Method 1: Download from Release
 <ol>
   <li>Download the filterlist.txt file from the latest release <a href='https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media/releases/latest'>here</a></li>
   <li>
@@ -116,6 +117,24 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
     Click 'Import and append...' and select the downloaded filterlist.txt file <br/>
     Alternatively, you can simply copy the text from filterlist.txt and paste it into the filter input field.
   </li>
+</ol>
+
+### Method 2: Subscribe via CDN (Auto-updates)
+<ol>
+  <li>
+    Install uBlock Origin extension in your browser
+    <ul>
+      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox (recommended)</a></li>
+      <li><a href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak">Microsoft Edge</a></li>
+      <li><a href="https://addons.opera.com/en/extensions/details/ublock/">Opera</a></li>
+    </ul>
+  </li>
+  <li>Open uBlock Dashboard</li>
+  <li>Navigate to 'Filter lists' section</li>
+  <li>Scroll down to 'Custom' section</li>
+  <li>Check the 'Import...' checkbox</li>
+  <li>Paste the following URL: <code>https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@main/filterlist.txt</code></li>
+  <li>Click 'Apply changes'</li>
 </ol>
 <br/>
 

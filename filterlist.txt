@@ -1,4 +1,9 @@
+! Title: UBlock Filters for Social Media
+! Description: The uBlock Origin filter list that hides all distractions on major social media platforms to make usage less addictive and more focused. 
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
+! License: MIT
+
+
 
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
