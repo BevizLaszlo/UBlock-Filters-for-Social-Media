@@ -45,3 +45,4 @@ x.com##[aria-label="Timeline: Your Home Timeline"]
 
 www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
 www.linkedin.com##main:has(.feed-sort-toggle-dsa__wrapper)>.relative
+www.linkedin.com##main>div:not(:first-child)
