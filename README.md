@@ -71,6 +71,7 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
           <li>Home Feed</li>
           <li>Popular Feed</li>
           <li>All Feed</li>
+          <li>Trending news in search bar</li>
         </ul>
       </td>
     </tr>
