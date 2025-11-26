@@ -38,6 +38,16 @@ www.reddit.com##shreddit-app[pagetype="home"] .main-container
 www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
 www.reddit.com##shreddit-app[pagetype="all"] .main-container
 
+! Start of Reddit trending dropdown rules
+! LOGGED IN rules
+www.reddit.com###section_0_pipeline_1_trending_query
+www.reddit.com###section_0_pipeline_1_trending_query ~ *
+
+! LOGGED OUT rules
+www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="trend"])
+www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="trend"]) ~ *
+! End of Reddit trending dropdown rules
+
 www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
 www.youtube.com##ytd-browse[page-subtype="home"]
 www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
