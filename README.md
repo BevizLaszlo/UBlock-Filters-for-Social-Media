@@ -132,7 +132,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/f
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/facebook.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/facebook.txt
 ```
 </td>
     </tr>
@@ -141,7 +141,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/f
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/linkedin.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/linkedin.txt
 ```
 </td>
     </tr>
@@ -150,7 +150,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/l
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/reddit.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/reddit.txt
 ```
 </td>
     </tr>
@@ -159,7 +159,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/r
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/twitch.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/twitch.txt
 ```
 </td>
     </tr>
@@ -168,7 +168,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/t
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/youtube.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/youtube.txt
 ```
 </td>
     </tr>
@@ -177,7 +177,7 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/y
 <td>
   
 ```
-https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/x.txt
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/x.txt
 ```
 </td>
     </tr>
