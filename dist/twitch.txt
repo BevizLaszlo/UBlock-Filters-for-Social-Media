@@ -1,0 +1,10 @@
+! Title: Filters for Twitch Distractions
+! Description: The uBlock Origin filter list that hides all distractions on Twitch to make usage less addictive and more focused.
+! Homepage: https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media
+! License: MIT
+
+www.twitch.tv##[aria-label="Recommended Channels"]
+www.twitch.tv##[aria-label="Recommended Categories"]
+www.twitch.tv##[aria-label="Live Channels"]
+www.twitch.tv##[aria-label*="Viewers Also Watch"]
+www.twitch.tv##main:has(#front-page-main-content)
