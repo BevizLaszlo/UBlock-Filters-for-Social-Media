@@ -115,9 +115,70 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
   <li>Navigate to 'Filter lists' section</li>
   <li>Scroll down to 'Custom' section</li>
   <li>Click the 'Import...' dropdown menu</li>
-  <li>Paste the following URL: <code>https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/filterlist.txt</code></li>
+  <li>Paste one or more of the following URLs based on your preferences:</li>
+  <br>
+  <table>
+    <tr>
+      <td>All filters:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/filterlist.txt
+```
+</td>
+    </tr>
+    <tr>
+      <td>Facebook:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/facebook.txt
+```
+</td>
+    </tr>
+        <tr>
+      <td>LinkedIn:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/linkedin.txt
+```
+</td>
+    </tr>
+        <tr>
+      <td>Reddit:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/reddit.txt
+```
+</td>
+    </tr>
+        <tr>
+      <td>Twitch:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/twitch.txt
+```
+</td>
+    </tr>
+        <tr>
+      <td>YouTube:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/youtube.txt
+```
+</td>
+    </tr>
+  </table>
+
   <li>Click 'Apply changes'</li>
 </ol>
+
+> [!NOTE]
+Keep in mind that auto-updates take some time to update
 
 ### Method 2: Download from Release
 <ol>
