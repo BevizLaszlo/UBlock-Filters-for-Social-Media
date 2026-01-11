@@ -1,8 +1,11 @@
-! Title: UBlock Filters for Social Media
+! Title: Filters for Social Media Distractions
 ! Description: The uBlock Origin filter list that hides all distractions on major social media platforms to make usage less addictive and more focused. 
 ! Homepage: https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media
 ! License: MIT
 
+
+
+! ----- YOUTUBE FILTERS -----
 
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
 
@@ -26,6 +29,23 @@ www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):up
 
 ! End of gijsdev/ublock-hide-yt-shorts filter list
 
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com##div#secondary>div#secondary-inner>div#related
+
+! for the new youtube video recommendations:
+www.youtube.com##div.ytp-fullscreen-grid-main-content
+
+! ----- END OF YOUTUBE FILTERS -----
+
+
+
+
+
+! ----- FACEBOOK FILTERS -----
+
 www.facebook.com##[aria-label="reel"]:upward(2)
 www.facebook.com##.x193iq5w.xgmub6v.x1ceravr.x1v0nzow
 www.facebook.com##.x1hc1fzr.x1unhpq9.x6o7n8i
@@ -33,6 +53,14 @@ www.facebook.com##.x1w9j1nh.x1mtsufr.xqmdsaz.x1xfsgkm.x1iplk16.x1q0g3np.xozqiw3.
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(3)
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(4)
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(5)
+
+! ----- END OF FACEBOOK FILTERS -----
+
+
+
+
+
+! ----- REDDIT FILTERS -----
 
 www.reddit.com##shreddit-app[pagetype="home"] .main-container
 www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
@@ -48,21 +76,39 @@ www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="tren
 www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="trend"]) ~ *
 ! End of Reddit trending dropdown rules
 
-www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
-www.youtube.com##ytd-browse[page-subtype="home"]
-www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
-www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
-www.youtube.com##div#secondary>div#secondary-inner>div#related
+! ----- END OF REDDIT FILTERS -----
 
-! for the new youtube video recommendations:
-www.youtube.com##div.ytp-fullscreen-grid-main-content
+
+
+
+
+! ----- TWITCH FILTERS -----
 
 www.twitch.tv##[aria-label="Recommended Channels"]
+www.twitch.tv##[aria-label="Recommended Categories"]
 www.twitch.tv##[aria-label="Live Channels"]
 www.twitch.tv##[aria-label*="Viewers Also Watch"]
 www.twitch.tv##main:has(#front-page-main-content)
 
+! ----- END OF TWITCH FILTERS -----
+
+
+
+
+
+! ----- X FILTERS -----
+
 x.com##[aria-label="Timeline: Your Home Timeline"]
+
+! ----- X FILTERS -----
+
+
+
+
+
+! ----- LINKEDIN FILTERS -----
 
 www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
 www.linkedin.com##main:has(.feed-sort-toggle-dsa__wrapper)>.relative
+
+! ----- END OF LINKEDIN FILTERS -----
