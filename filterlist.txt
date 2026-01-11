@@ -100,7 +100,7 @@ www.twitch.tv##main:has(#front-page-main-content)
 
 x.com##[aria-label="Timeline: Your Home Timeline"]
 
-! ----- X FILTERS -----
+! ----- END OF X FILTERS -----
 
 
 
