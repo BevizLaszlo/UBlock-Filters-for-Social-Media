@@ -1,0 +1,6 @@
+! Title: Filters for X Distractions
+! Description: The uBlock Origin filter list that hides all distractions on X to make usage less addictive and more focused.
+! Homepage: https://github.com/BevizLaszlo/UBlock-Filters-for-Social-Media
+! License: MIT
+
+x.com##[aria-label="Timeline: Your Home Timeline"]
