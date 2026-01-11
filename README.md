@@ -172,6 +172,15 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/y
 ```
 </td>
     </tr>
+    <tr>
+      <td>X:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/x.txt
+```
+</td>
+    </tr>
   </table>
 
   <li>Click 'Apply changes'</li>
