@@ -5,8 +5,3 @@
 
 www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
 www.linkedin.com##main:has(.feed-sort-toggle-dsa__wrapper)>.relative
-
-! Web
-linkedin.com##div[data-testid="mainFeed"] > div:not(:first-child)
-! Mobile
-linkedin.com##main > section > ol.feed-container
