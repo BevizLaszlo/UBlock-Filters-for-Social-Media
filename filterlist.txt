@@ -106,6 +106,22 @@ x.com##[aria-label="Timeline: Your Home Timeline"]
 
 
 
+! ----- INSTAGRAM FILTERS -----
+
+! Removes "Suggested for you", "Because you watched [...]" and similar in feed
+www.instagram.com##+js(json-prune, require.0.3.0.__bbox.require.0.3.1.__bbox.result.data.xdt_api__v1__feed__timeline__connection.edges.[-].node.explore_story.media.explore.title data.xdt_api__v1__feed__timeline__connection.edges.[-].node.explore_story.media.explore.title)
+! Removes "Threads" in feed
+www.instagram.com##+js(json-prune, require.0.3.0.__bbox.require.0.3.1.__bbox.result.data.xdt_api__v1__feed__timeline__connection.edges.[-].node.bloks_netego.payload)
+www.instagram.com##+js(json-prune-xhr-response, data.xdt_api__v1__feed__timeline__connection.edges.[-].node.bloks_netego.payload, , propsToMatch, url:/api/graphql)
+! Hides "Threads" hyper-references
+www.instagram.com##a[href="https://www.threads.net/"]
+
+! ----- END OF INSTAGRAM FILTERS -----
+
+
+
+
+
 ! ----- LINKEDIN FILTERS -----
 
 www.linkedin.com##main>.feed-sort-toggle-dsa__wrapper
