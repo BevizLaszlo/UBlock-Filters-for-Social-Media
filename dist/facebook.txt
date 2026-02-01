@@ -12,8 +12,8 @@ www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>l
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(5)
 
 ! mobile version:
-facebook.com##body.Android div.m.bg-s9:has(div[aria-label="What's on your mind?"]) ~ *
-facebook.com##body.iOS div.m.bg-s9:has(div[aria-label="What's on your mind?"]) ~ *
+facebook.com##body.Android div#screen-root>div>div>div.m:has(div[aria-label="What's on your mind?"]) ~ *
+facebook.com##body.iOS div#screen-root>div>div>div.m:has(div[aria-label="What's on your mind?"]) ~ *
 
 facebook.com##body.Android div[role="tablist"] div.bg-s3.m:nth-of-type(4)
 facebook.com##body.Android div[role="tablist"] div.bg-s3.m:nth-of-type(6)
