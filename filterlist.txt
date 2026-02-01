@@ -9,7 +9,7 @@
 
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
 
-    ! desktop
+! desktop
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
@@ -28,7 +28,7 @@ www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^
 www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
 www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
   
-    ! mobile
+! mobile
 m.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 m.youtube.com##ytm-item-section-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
@@ -50,8 +50,10 @@ www.youtube.com##div#primary>div#primary-inner>div#below>div#related
 
 m.youtube.com##div.related-items-container
 m.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model)
+m.youtube.com##[section-identifier="related-items"]
 
-m.youtube.com##:matches-path(/^\/$/).tab-content[tab-title="Home"]
+
+m.youtube.com##:matches-path(/^\/$/).tab-content
 
 
 ! for the new youtube video recommendations:
