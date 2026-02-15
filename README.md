@@ -189,6 +189,16 @@ https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/d
 ```
 </td>
     </tr>
+
+ <tr>
+      <td>Instagram:</td>
+<td>
+  
+```
+https://cdn.jsdelivr.net/gh/BevizLaszlo/UBlock-Filters-for-Social-Media@latest/dist/instagram.txt
+```
+</td>
+    </tr>
   </table>
 
   <li>Click 'Apply changes'</li>
