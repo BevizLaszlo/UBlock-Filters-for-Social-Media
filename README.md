@@ -94,6 +94,14 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
         </ul>
       </td>
     </tr>
+    <tr>
+      <td>Instagram</td>
+      <td>
+        <ul>
+          <li>Suggested posts</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
