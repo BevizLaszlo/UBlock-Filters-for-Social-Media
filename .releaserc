@@ -37,7 +37,13 @@
       }
     ],
     [
-      "@semantic-release/github"
+      "@semantic-release/github",
+      {
+        "assets": [
+          "filterlist.txt",
+          "dist/*.txt"
+        ]
+      }
     ]
   ]
 }
