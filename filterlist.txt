@@ -106,6 +106,9 @@ www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="tren
 www.reddit.com###search-dropdown-results-container > div:has(svg[icon-name="trend"]) ~ *
 ! End of Reddit trending dropdown rules
 
+! Remove suggested posts below Reddit posts (right sidebar)
+www.reddit.com##faceplate-tracker[noun="discovery_unit"]
+
 ! ----- END OF REDDIT FILTERS -----
 
 
