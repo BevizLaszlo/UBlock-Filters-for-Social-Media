@@ -95,6 +95,7 @@ facebook.com##body.iOS div.bg-s3.m:nth-of-type(6)
 www.reddit.com##shreddit-app[pagetype="home"] .main-container
 www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
 www.reddit.com##shreddit-app[pagetype="all"] .main-container
+www.reddit.com##shreddit-app[pagetype="community"] .main-container
 
 ! Start of Reddit trending dropdown rules
 ! LOGGED IN rules
