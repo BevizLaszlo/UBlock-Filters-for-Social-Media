@@ -6,6 +6,8 @@
 www.reddit.com##shreddit-app[pagetype="home"] .main-container
 www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
 www.reddit.com##shreddit-app[pagetype="all"] .main-container
+www.reddit.com##shreddit-app[pagetype="explore"] #main-content
+www.reddit.com##shreddit-app[pagetype="news"] #main-content
 
 ! Start of Reddit trending dropdown rules
 ! LOGGED IN rules
