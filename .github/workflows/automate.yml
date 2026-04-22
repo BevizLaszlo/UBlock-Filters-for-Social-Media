@@ -28,43 +28,12 @@ jobs:
       - name: Run Splitter Script
         run: python split_list.py
 
-      - name: Sync Changes to Repo
-        id: sync
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f dist/
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: auto-update domain filters [skip ci]"
-            git push origin main
-          else
-            echo "No changes detected."
-          fi
-
-      - name: Prepare Release Metadata
-        if: startsWith(github.event.head_commit.message, '!RELEASE')
-        id: meta
-        run: |
-          MSG="${{ github.event.head_commit.message }}"
-          
-          VERSION=$(echo "$MSG" | awk '{print $2}')
-          
-          BODY=$(echo "$MSG" | cut -d' ' -f3-)
-          
-          echo "tag=$VERSION" >> $GITHUB_OUTPUT
-          echo "body=$BODY" >> $GITHUB_OUTPUT
-
-      - name: Create GitHub Release
-        if: startsWith(github.event.head_commit.message, '!RELEASE')
-        uses: softprops/action-gh-release@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          tag_name: ${{ steps.meta.outputs.tag }}
-          name: ${{ steps.meta.outputs.tag }}
-          body: ${{ steps.meta.outputs.body }}
-          draft: false
-          prerelease: false
-          files: |
-            filterlist.txt
-            dist/*.txt
+          node-version: "lts/*"
+
+      - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx --package semantic-release@25.0.3 --package @semantic-release/commit-analyzer@13.0.1 --package @semantic-release/release-notes-generator@14.1.0 --package conventional-changelog-conventionalcommits@9.1.0 --package @semantic-release/github@12.0.6 --package @semantic-release/changelog@6.0.3 --package @semantic-release/git@10.0.1
