@@ -10,34 +10,24 @@
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
 
 ! desktop
-www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
-www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
-www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
-www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
-www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
-www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
-www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
-  
+www.youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]:upward(ytd-video-renderer)
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts],ytd-rich-shelf-renderer[is-shorts]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid] ytm-shorts-lockup-view-model:upward(ytd-rich-item-renderer[rendered-from-rich-grid])
+www.youtube.com##ytd-guide-entry-renderer:has(.ytd-guide-entry-renderer[title="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(.ytd-mini-guide-entry-renderer[title="Shorts"])
+www.youtube.com##yt-tab-shape[tab-title="Shorts"]
+www.youtube.com##yt-chip-cloud-chip-renderer:has(.ytChipShapeInactive:has-text(/^Shorts$/i))
+www.youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
+
 ! mobile
-m.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-m.youtube.com##ytm-item-section-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+m.youtube.com##ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
-m.youtube.com##ytm-video-with-context-renderer:has([data-style="SHORTS"])
-m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-rich-section-renderer:has(.yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
-m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer.item:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
-m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts.?Remix.*$/i))
-m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
-m.youtube.com##ytm-reel-shelf-renderer:has(ytm-shorts-lockup-view-model)
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-shorts-lockup-view-model:upward(ytm-rich-section-renderer)
+m.youtube.com##yt-tab-shape[tab-title="Shorts"]
+www.youtube.com##ytm-chip-cloud-chip-renderer:has([aria-label="Shorts"])
+m.youtube.com##ytm-shorts-lockup-view-model:upward(grid-shelf-view-model)
 
 ! End of gijsdev/ublock-hide-yt-shorts filter list
 
@@ -67,13 +57,21 @@ www.youtube.com##div.ytp-fullscreen-grid-main-content
 
 ! ----- FACEBOOK FILTERS -----
 
-www.facebook.com##[aria-label="reel"]:upward(2)
+! Removes friend and followed stories from home
 www.facebook.com##.x193iq5w.xgmub6v.x1ceravr.x1v0nzow
+
+! Removes Home feed
 www.facebook.com##.x1hc1fzr.x1unhpq9.x6o7n8i
-www.facebook.com##.x1w9j1nh.x1mtsufr.xqmdsaz.x1xfsgkm.x1iplk16.x1q0g3np.xozqiw3.x1qjc9v5.xl56j7k.xeuugli.xs83m0k.x1iyjqo2.x78zum5.x1ja2u2z.x1n2onr6.x9f619
-www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(3)
+
+! Removes Reels, Groups, Events Navigation Buttons
+www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(2)
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(4)
 www.facebook.com##ul.xuk3077.x78zum5.x1iyjqo2.xl56j7k.xe11lzi.x1vy8oqc.x88anuq>li:nth-child(5)
+
+! Removes Reels button from left sidebar
+www.facebook.com##.x1us19tq.x1iyjqo2.xdt5ytf.x78zum5 > .x1iyjqo2 li.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-li:has(span:has-text(/^Reels$/))
+! Removes Reels button from Facebook Menu
+www.facebook.com###_r_7q_ > div.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6:has(span:has-text(/^Reels$/))
 
 ! mobile version:
 facebook.com##body.Android div#screen-root>div>div>div.m:has(div[aria-label="What's on your mind?"]) ~ *
@@ -150,6 +148,12 @@ www.instagram.com##+js(json-prune, require.0.3.0.__bbox.require.0.3.1.__bbox.res
 www.instagram.com##+js(json-prune-xhr-response, data.xdt_api__v1__feed__timeline__connection.edges.[-].node.bloks_netego.payload, , propsToMatch, url:/api/graphql)
 ! Hides "Threads" hyper-references
 www.instagram.com##a[href="https://www.threads.net/"]
+
+! Removes Reels button in the left navbar on desktop view
+www.instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:has(span:has-text(/^Reels$/))
+
+! Removes Reels button on mobile navbar
+www.instagram.com##.xh8yej3.xaw8158.x78zum5 > div > :has(title:has-text(/^Reels$/))
 
 ! ----- END OF INSTAGRAM FILTERS -----
 

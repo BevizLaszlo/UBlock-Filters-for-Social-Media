@@ -80,7 +80,7 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
       <td>
         <ul>
           <li>Home Feed</li>
-          <li>Marketplace and Videos Navigation Buttons</li>
+          <li>Reels, Groups and Events Navigation Buttons</li>
           <li>Reels Section</li>
         </ul>
       </td>
@@ -99,6 +99,7 @@ This tool offers a simple yet effective way to boost productivity. It is fully c
       <td>
         <ul>
           <li>Suggested posts</li>
+          <li>Reels button</li>
         </ul>
       </td>
     </tr>
