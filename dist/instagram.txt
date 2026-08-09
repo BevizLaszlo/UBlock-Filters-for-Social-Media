@@ -10,3 +10,9 @@ www.instagram.com##+js(json-prune, require.0.3.0.__bbox.require.0.3.1.__bbox.res
 www.instagram.com##+js(json-prune-xhr-response, data.xdt_api__v1__feed__timeline__connection.edges.[-].node.bloks_netego.payload, , propsToMatch, url:/api/graphql)
 ! Hides "Threads" hyper-references
 www.instagram.com##a[href="https://www.threads.net/"]
+
+! Removes Reels button in the left navbar on desktop view
+www.instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:has(span:has-text(/^Reels$/))
+
+! Removes Reels button on mobile navbar
+www.instagram.com##.xh8yej3.xaw8158.x78zum5 > div > :has(title:has-text(/^Reels$/))
